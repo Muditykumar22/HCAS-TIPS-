@@ -1,0 +1,49 @@
+.box{
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 100px;
+    /* margin:30px ; */
+    background: skyblue;
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(53, 39, 66);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+
+}
+.container{
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+}
+.card{
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 23px;
+    margin: 20px;
+    text-align:end;
+    transition: 0.7s;
+}
+.card:hover{
+    transform: translate(10px);
+    box-shadow: 20px 20px 20px rgba(236, 236, 250, 0.221);
+}
+button{
+    padding: 10px 20px;
+    border:none;
+    background: green;
+    color:aliceblue;
+    border-radius: 5px;
+}
+button:hover{
+    background: black;
+}
