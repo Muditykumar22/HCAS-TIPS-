@@ -1,0 +1,22 @@
+/* div p{
+    color:red;
+} */
+/* div > p{
+    color:blue;
+}
+h1~p{
+    color: rgb(37, 151, 58);
+} */
+ *{
+    margin: 50px;
+    padding: 100px;
+ }
+input[type="text"]{
+    border:2px solid green;
+}
+input[type="password"]{
+    border:2px solid rgb(15, 0, 128);
+}
+h1,p{
+    font-family: 'Courier New', Courier, monospace
+}
