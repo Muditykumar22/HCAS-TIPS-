@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+    height: 300px;
+    align-items: flex-start;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background: skyblue;
+    border: 2px solid black;
+}
