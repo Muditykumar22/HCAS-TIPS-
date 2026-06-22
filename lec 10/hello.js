@@ -86,3 +86,43 @@ x += 5; //15
 // x *= 2; //24
 // x /= 4; //6
 console.log(x);
+
+// Comparison Operators
+
+let a = 10;
+let b = "10";
+
+console.log(a == b);   // true
+console.log(a === b);  // false
+console.log(a != b);   // false
+console.log(a !== b);  // true
+console.log(a > 5);    // true
+console.log(a < 5);    // false
+
+// Logical Operators
+let age = 20;
+
+console.log(age > 18 && age < 30);
+console.log(age > 18 || age > 60);
+console.log(!(age < 18));
+
+// Type Casting in JavaScript-
+//  converting one datatype into another 
+
+// string to number
+let num = "100";
+
+console.log(Number(num));
+console.log(parseInt(num));
+// number to string
+let n = 50;
+
+console.log(String(n));
+
+// Boolean conversion
+console.log(Boolean(1));     // true
+console.log(Boolean(0));     // false
+console.log(Boolean("JS"));  // true
+console.log(Boolean(""));    // false
+
+// problem 1= 
